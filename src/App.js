@@ -68,7 +68,7 @@ function App() {
         <NavBar />
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-            At Krishi we are passionate about software
+            At Krish we are passionate about software
           </Typography>
           <Typography
             variant="h5"
