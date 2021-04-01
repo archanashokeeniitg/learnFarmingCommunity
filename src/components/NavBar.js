@@ -73,10 +73,10 @@ function NavBar() {
       <Typography variant="h6" className={classes.menuItem}>
         <NavLink
           exact
-          to="/schedule"
+          to="/announcements"
           style={{ textDecoration: "none", color: "white" }}
         >
-          Schedule
+          Announcements
         </NavLink>
       </Typography>
 
