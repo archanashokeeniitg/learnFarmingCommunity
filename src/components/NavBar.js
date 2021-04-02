@@ -1,13 +1,9 @@
 import React from "react";
-import CustomBtn from "./CustomBtn";
-import logo from "../logo.svg";
-import logoMobile from "../logoMobile.svg";
+
 import { Toolbar, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { NavLink } from "react-router-dom";
-import About from "../views/About";
-import Home from "../views/Home";
-//import About from "../views/About";
+import { Alert } from "react-bootstrap";
 
 const styles = makeStyles({
   bar: {
@@ -51,59 +47,70 @@ const styles = makeStyles({
 function NavBar() {
   const classes = styles();
   return (
-    <Toolbar
-      position="sticky"
-      color="rgba(0, 0, 0, 0.87)"
-      className={classes.bar}
-    >
-      <img
-        alt="logo"
-        src="https://user-images.githubusercontent.com/66199202/113369436-31dc0b00-9316-11eb-9bf1-2ef815f0f669.png"
-        // src="https://user-images.githubusercontent.com/66199202/113369523-6780f400-9316-11eb-9021-7dfe061e5ccb.png"
-        style={{ width: 100, height: 100, paddingBottom: 10 }}
-        //src="https://img.icons8.com/color/80/000000/plant-under-sun--v1.png"
-      />
+    <div>
+      <Toolbar
+        position="sticky"
+        color="rgba(0, 0, 0, 0.87)"
+        className={classes.bar}
+      >
+        <img
+          alt="logo"
+          src="https://user-images.githubusercontent.com/66199202/113369436-31dc0b00-9316-11eb-9bf1-2ef815f0f669.png"
+          style={{
+            width: 100,
+            height: 100,
+            paddingBottom: 10,
+          }}
+        />
 
-      <Typography variant="h6" className={classes.menuItem}>
-        <NavLink
-          exact
-          to="/about"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          About
-        </NavLink>
-      </Typography>
+        <Typography variant="h6" className={classes.menuItem}>
+          <NavLink
+            exact
+            to="/about"
+            style={{
+              textDecoration: "none",
+              color: "white",
+            }}
+          >
+            About
+          </NavLink>
+        </Typography>
 
-      <Typography variant="h6" className={classes.menuItem}>
-        <NavLink
-          exact
-          to="/announcements"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          Announcements
-        </NavLink>
-      </Typography>
+        <Typography variant="h6" className={classes.menuItem}>
+          <NavLink
+            exact
+            to="/announcements"
+            style={{
+              textDecoration: "none",
+              color: "white",
+              justifyContent: "space-around",
+            }}
+          >
+            Announcements
+          </NavLink>
+        </Typography>
 
-      <Typography variant="h6" className={classes.menuItem}>
-        <NavLink
-          exact
-          to="/services"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          Services
-        </NavLink>
-      </Typography>
+        <Typography variant="h6" className={classes.menuItem}>
+          <NavLink
+            exact
+            to="/services"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Services
+          </NavLink>
+        </Typography>
 
-      <Typography variant="h6" className={classes.menuItem}>
-        <NavLink
-          exact
-          to="/contactus"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          Contact Us
-        </NavLink>
-      </Typography>
-    </Toolbar>
+        <Typography variant="h6" className={classes.menuItem}>
+          <NavLink
+            exact
+            to="/contactus"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            Contact Us
+          </NavLink>
+        </Typography>
+      </Toolbar>
+    </div>
   );
 }
 

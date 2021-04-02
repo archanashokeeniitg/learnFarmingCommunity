@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Button, Image, Col } from "react-bootstrap";
+import { Jumbotron, Image, Col } from "react-bootstrap";
 
 export default function ContactUs() {
   return (

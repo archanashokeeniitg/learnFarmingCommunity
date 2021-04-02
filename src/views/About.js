@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Jumbotron, Button, Carousel, Col, Row } from "react-bootstrap";
+import { Jumbotron, Carousel, Col, Row, Alert } from "react-bootstrap";
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://user-images.githubusercontent.com/66199202/113365370-e7a15c80-930a-11eb-8274-74a5320179f9.png"
+              src="https://user-images.githubusercontent.com/66199202/113375260-e29cd700-9323-11eb-9b40-1d77c9a4dfb1.jpeg"
               alt="Second slide"
             />
 
@@ -27,7 +27,7 @@ const About = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://i.ytimg.com/vi/4lOiObgRf3c/maxresdefault.jpg"
+              src="https://user-images.githubusercontent.com/66199202/113375253-e03a7d00-9323-11eb-895e-bfeeb3a20f5a.jpeg"
               alt="Third slide"
             />
 
