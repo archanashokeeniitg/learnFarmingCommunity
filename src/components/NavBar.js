@@ -12,7 +12,7 @@ import Home from "../views/Home";
 const styles = makeStyles({
   bar: {
     paddingTop: "1.15rem",
-    backgroundColor: "#6EC72D",
+    backgroundColor: "#0E6655",
     ["@media (max-width:780px)"]: {
       flexDirection: "column",
     },
@@ -37,7 +37,9 @@ const styles = makeStyles({
       color: "#4f25c8",
     },
     textDecoration: "none",
-    padding: 20,
+    padding: 30,
+    fontSize: 18,
+    fontWeight: "bold",
 
     color: "#fff",
     ["@media (max-width:780px)"]: {
@@ -56,7 +58,9 @@ function NavBar() {
     >
       <img
         alt="logo"
-        src="https://img.icons8.com/fluent/96/000000/plant-under-sun.png"
+        src="https://user-images.githubusercontent.com/66199202/113369436-31dc0b00-9316-11eb-9bf1-2ef815f0f669.png"
+        // src="https://user-images.githubusercontent.com/66199202/113369523-6780f400-9316-11eb-9021-7dfe061e5ccb.png"
+        style={{ width: 100, height: 100, paddingBottom: 10 }}
         //src="https://img.icons8.com/color/80/000000/plant-under-sun--v1.png"
       />
 
@@ -83,16 +87,6 @@ function NavBar() {
       <Typography variant="h6" className={classes.menuItem}>
         <NavLink
           exact
-          to="/blogs"
-          style={{ textDecoration: "none", color: "white" }}
-        >
-          Blogs
-        </NavLink>
-      </Typography>
-
-      <Typography variant="h6" className={classes.menuItem}>
-        <NavLink
-          exact
           to="/services"
           style={{ textDecoration: "none", color: "white" }}
         >
@@ -109,8 +103,6 @@ function NavBar() {
           Contact Us
         </NavLink>
       </Typography>
-
-      <CustomBtn txt="Trial Our Product" />
     </Toolbar>
   );
 }

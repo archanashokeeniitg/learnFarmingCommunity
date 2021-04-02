@@ -12,7 +12,7 @@ import "./App.css";
 import SecurityIcon from "@material-ui/icons/Security";
 import EventNoteIcon from "@material-ui/icons/EventNote";
 import TrendingUpIcon from "@material-ui/icons/TrendingUp";
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Routes } from "./Routes";
 
 const theme = createMuiTheme({

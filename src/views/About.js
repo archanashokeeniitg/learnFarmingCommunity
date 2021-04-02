@@ -1,30 +1,68 @@
 import React from "react";
 
-import { Jumbotron, Button } from "react-bootstrap";
+import { Jumbotron, Button, Carousel, Col, Row } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div>
+    <div className="container">
       <Jumbotron>
-        About About ############???########
-        <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
-          Evil) by Cicero, written in 45 BC. This book is a treatise on the
-          theory of ethics, very popular during the Renaissance. The first line
-          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
-          section 1.10.32. The standard chunk of Lorem Ipsum used since the
-          1500s is reproduced below for those interested. Sections 1.10.32 and
-          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
-          reproduced in their exact original form, accompanied by English
-          versions from the 1914 translation by H. Rackham.
-        </p>
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://user-images.githubusercontent.com/66199202/113365611-9c3b7e00-930b-11eb-8f6a-00bf131eb159.png"
+              alt="First slide"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://user-images.githubusercontent.com/66199202/113365370-e7a15c80-930a-11eb-8274-74a5320179f9.png"
+              alt="Second slide"
+            />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://i.ytimg.com/vi/4lOiObgRf3c/maxresdefault.jpg"
+              alt="Third slide"
+            />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+        <Row>
+          <Col lg={6}>
+            <p>
+              This community was established in 2014 by Rahul Shokeen son of
+              Anoop Singh as a dream and legacy of his hardworking father . His
+              Father's dream was to see our village an advanced educated hub
+              where science and agriculture is amalgated. The aim of this
+              community is to inspire and guide the fellow farmers towards a
+              better farming experience using science and biotechnology. We
+              provide the guidance for distribution and chain management. We
+              have helped small farmers to do better judgements . This
+              Self-Learning community welcomes the farmers to build trust and
+              unity.
+            </p>
+          </Col>
+          <Col lg={6}>
+            <p>
+              इस समुदाय की स्थापना 2014 में अनूप सिंह के बेटे राहुल शोकेन ने
+              अपने मेहनती पिता के सपने और विरासत के रूप में की थी। उनके पिता का
+              सपना था कि हमारा गाँव एक उन्नत शिक्षित हब बने जहाँ विज्ञान और कृषि
+              का समामेलन हो। इस समुदाय का उद्देश्य विज्ञान और जैव प्रौद्योगिकी
+              का उपयोग करके बेहतर खेती के अनुभव के लिए साथी किसानों को प्रेरित
+              करना और मार्गदर्शन करना है। हम वितरण और श्रृंखला प्रबंधन के लिए
+              मार्गदर्शन प्रदान करते हैं। हमने छोटे किसानों को बेहतर निर्णय लेने
+              में मदद की है। यह सेल्फ लर्निंग समुदाय किसानों का विश्वास और एकता
+              बनाने के लिए स्वागत करता है।
+            </p>
+          </Col>
+        </Row>
       </Jumbotron>
     </div>
   );
