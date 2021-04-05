@@ -34,7 +34,7 @@ export default function Announcements() {
             <img
               height="300"
               width="300"
-              src="http://clipart-library.com/images_k/calendar-clipart-transparent/calendar-clipart-transparent-24.png"
+              src="https://freeiconshop.com/wp-content/uploads/edd/calendar-flat.png"
             />
           </Col>
         </Row>
