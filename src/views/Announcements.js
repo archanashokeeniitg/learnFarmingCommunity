@@ -6,7 +6,7 @@ export default function Announcements() {
     <div className=" container jumbotron">
       <Jumbotron>
         <Row>
-          <Col lg={6}>
+          <Col lg={4}>
             <h1>2021</h1>
             <p>
               Jan 30, 2021 @ 1pm - 5 pm
@@ -30,12 +30,50 @@ export default function Announcements() {
               </Button>
             </p>
           </Col>
-          <Col lg={6}>
+          <Col lg={4} className="floatRight">
             <img
               height="300"
               width="300"
-              src="http://clipart-library.com/images_k/calendar-clipart-transparent/calendar-clipart-transparent-24.png"
+              src="https://d29fhpw069ctt2.cloudfront.net/icon/image/84451/preview.svg"
             />
+          </Col>
+          <Col lg={4}>
+            <Button variant="warning">
+              Schedule - 2020 <b> [Archived]</b>
+            </Button>
+            <br />
+
+            <br />
+            <Button variant="warning">
+              Schedule - 2019 <b> [Archived]</b>
+            </Button>
+            <br />
+
+            <br />
+            <Button variant="warning">
+              Schedule - 2018 <b> [Archived]</b>
+            </Button>
+            <br />
+
+            <br />
+            <Button variant="warning">
+              Schedule - 2017 <b> [Archived]</b>
+            </Button>
+            <br />
+
+            <br />
+            <Button variant="warning">
+              Schedule - 2016<b> [Archived]</b>
+            </Button>
+            <br />
+
+            <br />
+            <Button variant="warning">
+              Schedule - 2015 <b> [Archived]</b>
+            </Button>
+            <br />
+
+            <br />
           </Col>
         </Row>
       </Jumbotron>

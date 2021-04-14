@@ -37,29 +37,31 @@ const About = () => {
         <Row>
           <Col lg={6}>
             <p>
-              This community was established in 2014 by Rahul Shokeen son of
-              Anoop Singh as a dream and legacy of his hardworking father . His
-              Father's dream was to see our village an advanced educated hub
-              where science and agriculture is amalgated. The aim of this
-              community is to inspire and guide the fellow farmers towards a
-              better farming experience using science and biotechnology. We
-              provide the guidance for distribution and chain management. We
-              have helped small farmers to do better judgements . This
-              Self-Learning community welcomes the farmers to build trust and
-              unity.
+              This community was established in 2014 by a group of farmers who
+              hailed from the outskirts of Delhi. They wanted to take the
+              agricultures on the heights where was to see our villages an
+              advanced educated hub where science and agriculture is amalgated.
+              These farmer hailed from Dichao, Mitraon, Jharoda kalan, Hiran
+              kudna etc. The aim of this community is to inspire and guide the
+              fellow farmers towards a better farming experience using science
+              and biotechnology. We provide the guidance for distribution and
+              chain management. We have helped small farmers to do better
+              judgements . This Self-Learning community welcomes the farmers to
+              build trust and unity.
             </p>
           </Col>
           <Col lg={6}>
             <p>
-              इस समुदाय की स्थापना 2014 में अनूप सिंह के बेटे राहुल शोकेन ने
-              अपने मेहनती पिता के सपने और विरासत के रूप में की थी। उनके पिता का
-              सपना था कि हमारा गाँव एक उन्नत शिक्षित हब बने जहाँ विज्ञान और कृषि
-              का समामेलन हो। इस समुदाय का उद्देश्य विज्ञान और जैव प्रौद्योगिकी
-              का उपयोग करके बेहतर खेती के अनुभव के लिए साथी किसानों को प्रेरित
-              करना और मार्गदर्शन करना है। हम वितरण और श्रृंखला प्रबंधन के लिए
-              मार्गदर्शन प्रदान करते हैं। हमने छोटे किसानों को बेहतर निर्णय लेने
-              में मदद की है। यह सेल्फ लर्निंग समुदाय किसानों का विश्वास और एकता
-              बनाने के लिए स्वागत करता है।
+              यह समुदाय 2014 में किसानों के एक समूह द्वारा स्थापित किया गया था
+              दिल्ली के बाहरी इलाके से आया। वे लेना चाहते थे जहाँ हमारे गाँवों
+              को देखना था वहाँ की ऊँचाई पर खेती उन्नत शिक्षित हब जहां विज्ञान और
+              कृषि का समामेलन किया जाता है। ये किसान डिचाओ, मित्राँ, झरोदा कलां,
+              हिरण कुदना आदि से प्रभावित हैं। इस समुदाय का उद्देश्य साथी को
+              प्रेरित करना और मार्गदर्शन करना है विज्ञान का उपयोग करते हुए एक
+              बेहतर कृषि अनुभव की ओर किसान जैव प्रौद्योगिकी। हम वितरण और
+              श्रृंखला के लिए मार्गदर्शन प्रदान करते हैं प्रबंधन। हमने छोटे
+              किसानों को बेहतर निर्णय लेने में मदद की है। यह सेल्फ लर्निंग
+              समुदाय किसानों का विश्वास बनाने के लिए स्वागत करता है और एकता।
             </p>
           </Col>
         </Row>
