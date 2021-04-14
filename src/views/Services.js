@@ -73,6 +73,7 @@ export default function Services() {
             alt="name"
           />
           <GridListTileBar
+            style={{ fontWeight: "bold", fontSize: 3 }}
             title="Organic Farming"
             actionIcon={
               <IconButton aria-label={`info about `} className={classes.icon}>
