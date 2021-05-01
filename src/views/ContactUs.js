@@ -6,7 +6,7 @@ export default function ContactUs() {
     <div className=" container ">
       <Jumbotron>
         <Col lg={6}>
-          <p>Founder- Ramesh Singh</p>
+          <p>Founder- Jagat Singh</p>
 
           <p style={{ color: "#337ab7", fontWeight: "bold" }}>
             {" "}
@@ -46,7 +46,7 @@ export default function ContactUs() {
             />
           </Col>
           <Col lg={6}>
-            <p>Co-Founder- Archana Devi</p>
+            <p>Co-Founder- Pinki Devi</p>
 
             <p style={{ color: "#337ab7", fontWeight: "bold" }}>
               {" "}
