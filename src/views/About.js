@@ -5,6 +5,24 @@ import { Jumbotron, Carousel, Col, Row, Alert } from "react-bootstrap";
 const About = () => {
   return (
     <div className="container">
+      <div align="center">
+        <marquee
+          bgcolor="#bb3434"
+          direction="left"
+          loop="7"
+          scrollamount="20"
+          scrolldelay="2"
+          width="100%"
+        >
+          <span
+            style={{ color: "white", fontWeight: "bold", fontSize: "20px" }}
+          >
+            Beware of fake advertisement! We donot charge anything for our
+            services! We donot have any branch!
+          </span>
+        </marquee>
+      </div>
+
       <Jumbotron>
         <Carousel>
           <Carousel.Item>
